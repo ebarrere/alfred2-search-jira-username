@@ -27,7 +27,6 @@ Alfred.with_friendly_error do |alfred|
       @logger.debug("icon #{icon}") if @debug
 
       fb.add_item({
-        :uid          => "",
         :title        => "#{fullname}",
         :subtitle     => "#{username}",
         :arg          => "[~#{username}]",
